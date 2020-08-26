@@ -4,10 +4,13 @@ import requests
 def moonphase():
 	url = 'https://api.met.no/weatherapi/sunrise/2.0/.json?'
 
-	lat = '49.283054'
-	lon = '-122.831665'
+	### TO BE REPLACED ###
+	lat = 'LAT'
+	lon = '-LONG'
+	offset = 'OFFSET'
+	### TO BE REPLACED ###
+	
 	date = time.strftime('%Y-%m-%d')
-	offset = '-07:00'
 
 	query = 'lat={}&lon={}&date={}&offset={}'.format(lat,lon,date,offset)
 
