@@ -8,6 +8,6 @@ To customize your location, change [weather.py](https://github.com/paulquin/gude
 
 I recommend adjusting the "special days" in [graphics.py](graphics.py) as not everyone has the same birthday
 
-Weather is obtained through [OpenWeather API](https://openweathermap.org/current) and requires your own API key in order to make the weather.py works.
+Weather is obtained through [OpenWeather API](https://openweathermap.org/current) and requires your own API key in order to make the [weather.py](https://github.com/paulquin/gudetamaclock/blob/master/weather.py) works.
 
 Moonphase is obtained through [Meteorologisk institutt](https://www.met.no/) of their [Sunrise](https://api.met.no/weatherapi/sunrise/2.0/documentation) API, which does not require any API key.
