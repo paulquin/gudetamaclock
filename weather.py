@@ -1,9 +1,9 @@
 import requests
 
 url = 'https://api.openweathermap.org/data/2.5/weather?q='
-city = 'Port Moody'
-state = 'BC'
-country = 'CA'
+city = 'CITY'
+state = 'STATE/PROVINCE'
+country = 'COUNTRY'
 apikey = 'YOUR OPENWEATHER API KEY'
 
 query = '{},{},{}&appid={}'.format(city,state,country,apikey)
