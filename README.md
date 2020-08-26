@@ -6,4 +6,4 @@ Not only it has different Gudetamas for different time, it shows weather, temper
 
 To customize your location, change weather.py and moonphase.py with respect to your location
 
-I recommend adjust the "special days" in graphics.py as not everyone has the same birthday
+I recommend adjusting the "special days" in graphics.py as not everyone has the same birthday
