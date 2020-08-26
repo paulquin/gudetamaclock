@@ -85,14 +85,6 @@ def graphics_path():
 		graphicspath = "/home/pi/clock/GudeClock/graphics/bunny.png"
 	elif day == '0410' and year == 2023:
 		graphicspath = "/home/pi/clock/GudeClock/graphics/bunny.png"
-	elif day == '0829' and hour <= 10:
-		graphicspath = "/home/pi/clock/GudeClock/graphics/valentine.png"
-	elif day == '0829' and hour > 10 and hour <= 11 :
-		graphicspath = "/home/pi/clock/GudeClock/graphics/bun.png"
-	elif day == '0829' and hour > 11 and hour <= 12 :
-		graphicspath = "/home/pi/clock/GudeClock/graphics/holdhands.png"
-	elif day == '0829' and hour > 12 and hour <= 13 :
-		graphicspath = "/home/pi/clock/GudeClock/graphics/twin.png"
 	elif day == '1031' and hour > 12 and hour <= 14:
 		graphicspath = "/home/pi/clock/GudeClock/graphics/xray.png"
 	elif day == '1031' and hour > 14 and hour <= 16:
